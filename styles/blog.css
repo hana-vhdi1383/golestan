@@ -4,10 +4,8 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: IranSans, Tahoma, verdana, sans-serif;
- 
 }
 @font-face {
   font-family: IranSans;
@@ -17,7 +15,6 @@ body {
 }
 
 .container {
-  
   margin: 0 auto;
 }
 
@@ -38,7 +35,7 @@ header {
   nav {
     display: flex;
     .menu__item {
-      color:#Afb2b4;
+      color: #afb2b4;
       text-decoration: none;
       border-left: 1px solid white;
       padding: 0 10px;
@@ -57,7 +54,7 @@ header {
           text-decoration: none;
           color: lightgray;
           &:hover {
-            color: #FFFFFF; ;
+            color: #ffffff;
           }
         }
       }
@@ -68,25 +65,23 @@ header {
         }
       }
     }
-    .menu__item:hover{
-      color:#FFFFFF;
+    .menu__item:hover {
+      color: #ffffff;
     }
   }
 }
-.veblog{
-display:flex;
-align-items: center;
-margin: 0 auto;
-padding-left: 300px;
+.veblog {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 300px;
 
-
-.vebloginfo{
-  color: red;
-  
+  .vebloginfo {
+    color: red;
+  }
 }
-}
-.container{
-  padding: 100px;
+.container {
+  /* padding: 100px; */
 }
 .veblog__title {
   color: red;
@@ -102,58 +97,54 @@ padding-left: 300px;
   align-items: center;
   gap: 10px;
 }
-  .cards{
+.cards {
   background-color: rgb(240, 253, 253);
-  }
- 
-  .card {
-    width: 320px;
-    background-color: white;
-    img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-    }
-    .card__info {
-      padding: 20px;
-      h3,
-      p,
-      button {
-        margin-top: 20px;
-      }
-      p {
-        text-align: justify;
-        line-height: 30px;
-        height: 130px;
-        color: rgb(153, 148, 148);
-      }
-      h3 {
-        font-size: larger;
-        color: rgb(255, 13, 61);
-      }
-      button {
-          padding: 7px 20px;
-          border: 1px solid #7e7c7c70;
-          font-size: 14px;
-          font-weight: 100;
-          line-height: 26px;
-          font-family: "IranSans";
-          border-radius: 5px;
-          background-color: white;
-          color: #7c7d7e;
-          transition: 0.25s all ease;
-          &:hover {
-            background-color: #ff0000;
-            color: #fff;
-            border: 1px solid #ff0000;
-          }
-        }
-        }
-      }
-    
-  
-  
+}
 
+.card {
+  width: 320px;
+  background-color: white;
+  img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+  }
+  .card__info {
+    padding: 20px;
+    h3,
+    p,
+    button {
+      margin-top: 20px;
+    }
+    p {
+      text-align: justify;
+      line-height: 30px;
+      height: 130px;
+      color: rgb(153, 148, 148);
+    }
+    h3 {
+      font-size: larger;
+      color: rgb(255, 13, 61);
+    }
+    button {
+      padding: 7px 20px;
+      border: 1px solid #7e7c7c70;
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 26px;
+      font-family: "IranSans";
+      border-radius: 5px;
+      background-color: white;
+      color: #7c7d7e;
+      transition: 0.25s all ease;
+      &:hover {
+        background-color: #ff0000;
+        color: #fff;
+        border: 1px solid #ff0000;
+      }
+    }
+  }
+}
 .soshial {
   width: 100%;
   height: 95px;
@@ -161,12 +152,13 @@ padding-left: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 3px;
   transition: all 100ms ease-in;
   .soshialbox {
     width: 55px;
     height: 55px;
     border-radius: 100%;
+    transition: all 100ms ease-in;
   }
   .facebookeicon {
     background-image: url(../icon/image/facebook.png);
@@ -205,47 +197,52 @@ padding-left: 300px;
     }
   }
 }
-
-.icon{
+.icon {
   background-color: black;
   display: flex;
   justify-content: center;
-  padding: 20PX;
+  padding: 20px;
   a {
     text-decoration: none;
   }
-  hr{
+  hr {
     color: #4a4a4a;
-    
+
     width: 300px;
     height: 1.5px;
-   
-  
-      }
-  h2{
-    color: #FFFF;
-    padding: 10PX;
-    
   }
-  p{
+  h2 {
+    color: #ffff;
+    padding: 10px;
+  }
+  p {
     color: #bcbecb;
-    padding: 2PX;
+    padding: 2px;
     padding-bottom: 10px;
     &:hover {
       color: white;
-     
-     
-    }}}
- 
- .end{
+    }
+  }
+}
+
+.end {
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
   background-color: black;
-  h2,p{
-    color:#9F9F9F;
- 
-    
+
+  h2,
+  p {
+    color: #9f9f9f;
   }
- }
+}
+
+#main-page {
+  padding: 100px;
+  margin-top: 50px;
+}
+
+#en_menu_item {
+  border-left: none;
+}
